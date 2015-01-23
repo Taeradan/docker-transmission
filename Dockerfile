@@ -10,4 +10,4 @@ USER transmission
 EXPOSE 9091 51413 51413/udp
 
 ENTRYPOINT ["/usr/bin/transmission-daemon"]
-CMD ["-f", "-T", "--allowed", "172.*"]
+CMD ["-f", "-T", "--allowed", "127.0.0.1"]
